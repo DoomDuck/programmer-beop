@@ -32,8 +32,8 @@ xkb_symbols "programmer_beop" {
 
     key <TLDE> { repeat = no, type[group1] = "ONE_LEVEL"   , [ Multi_key ] }; // Compose
     key <AE01> { type[group1] = "FOUR_LEVEL"               , [ ampersand, 1, emdash, endash ] }; // & 1 cadratin demi-cadratin
-    key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [guillemotleft, 2, eth, leftdoublequotemark ] }; // « 2 ð “
-    key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [guillemotright, 3, U017F,rightdoublequotemark ] }; // « 3 ſ ”
+    key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ parenleft, 2, eth, leftdoublequotemark ] }; // « 2 ð “
+    key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ parenright, 3, U017F,rightdoublequotemark ] }; // « 3 ſ ”
     key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ apostrophe, 4, thorn, lessthanequal ] }; // ' 4 þ ≤
     key <AE05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ quotedbl , 5, ssharp, greaterthanequal] }; // " 5 ß ≥
     key <AE06> { type[group1] = "FOUR_LEVEL"               , [ at, 6, asciicircum, doublelowquotemark ] }; // @ 6 ^ „
@@ -55,12 +55,12 @@ xkb_symbols "programmer_beop" {
     key <AD09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ l, L, dead_stroke, copyright ] }; // l L / ©
     key <AD10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ j, J, U0133, U0132 ] }; // j J ĳ Ĳ
     key <AD11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ z, Z, schwa, SCHWA ] }; // z Z ə Ə
-    key <AD12> { type[group1] = "FOUR_LEVEL"               , [ dead_belowdot, dead_hook, dead_breve, dead_horn ] }; //  ̣  ̉  ˘ ̛
+    key <AD12> { type[group1] = "FOUR_LEVEL"               , [ ecircumflex, Ecircumflex, slash, U202F ] }; //  ̣  ̉  ˘ ̛
 
     key <AC01> { type[group1] = "FOUR_LEVEL_ALPHABETIC"    , [ a, A, ae, AE ] }; // a A æ Æ
     key <AC02> { type[group1] = "FOUR_LEVEL_ALPHABETIC"    , [ u, U, ugrave, Ugrave ] }; // u U ù Ù
-    key <AC03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ e, E, parenleft, EuroSign ] }; // e E ( €
-    key <AC04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ i, I, parenright, dead_abovedot ] }; // i I ) ˙
+    key <AC03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ e, E, braceleft, EuroSign ] }; // e E ( €
+    key <AC04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ i, I, braceright, dead_abovedot ] }; // i I ) ˙
     key <AC05> { type[group1] = "FOUR_LEVEL"               , [ comma, exclam, semicolon, exclamdown ] }; // , ! ; ¡
     key <AC06> { type[group1] = "FOUR_LEVEL_ALPHABETIC"    , [ c, C, ccedilla, Ccedilla ] }; // c C
     key <AC07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ t, T, less, trademark ] }; // t T < ™
@@ -68,12 +68,12 @@ xkb_symbols "programmer_beop" {
     key <AC09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ r, R, registered, U02B3] }; // r R ® ʳ
     key <AC10> { type[group1] = "FOUR_LEVEL_ALPHABETIC"    , [ n, N, ntilde, Ntilde ] }; // n N ñ Ñ
     key <AC11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ f, F, dead_ogonek, ordfeminine ] }; // f F ̨ ª
-    key <BKSL> { type[group1] = "FOUR_LEVEL"               , [ dead_diaeresis, dead_abovering, dead_cedilla, dead_belowcomma ] }; // ¨ ° ¸
+    key <BKSL> { type[group1] = "FOUR_LEVEL"               , [ dead_belowdot, dead_hook, dead_breve, dead_horn ] }; // ¨ ° ¸
 
-    key <LSGT> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ecircumflex, Ecircumflex, slash, U202F ] }; // ê Ê / espace fine insécable
+    key <LSGT> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ISO_Level3_Shift ] }; // ê Ê / espace fine insécable
     key <AB01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ agrave, Agrave, backslash, U3003] }; // à À \ 〃
-    key <AB02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ y, Y, braceleft, notequal ] }; // y Y { ≠
-    key <AB03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ x, X, braceright, U2022 ] }; // x X } •
+    key <AB02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ y, Y, guillemotleft, notequal ] }; // y Y { ≠
+    key <AB03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ x, X, guillemotright, U2022 ] }; // x X } •
     key <AB04> { type[group1] = "FOUR_LEVEL"               , [ period, colon, ellipsis, periodcentered ] }; // . : … ·
     key <AB05> { type[group1] = "FOUR_LEVEL"               , [ rightsinglequotemark, question, questiondown, leftsinglequotemark ] }; // ’ ? ¿ ‘
     key <AB06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ k, K, asciitilde, dead_tilde ] }; // k K ~ ~
@@ -82,15 +82,12 @@ xkb_symbols "programmer_beop" {
     key <AB09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ h, H, dagger, doubledagger ] }; // h H † ‡
     key <AB10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ m, M, dead_macron, masculine ] }; // m M ¯ º
 
-    key <LWIN> { type[group1] = "TWO_LEVEL"                , [ Alt_L, Meta_L ] };
+    key <LWIN> { type[group1] = "TWO_LEVEL"                , [ Super_L ] };
     key <LALT> { type[group1] = "ONE_LEVEL"                , [ ISO_Level3_Shift ] };
     key <SPCE> { type[group1] = "FOUR_LEVEL"               , [ space, space, underscore, nobreakspace ] }; //     _  
-    key <RALT> { type[group1] = "ONE_LEVEL"                , [ ISO_Level3_Shift ] };
+    key <RALT> { type[group1] = "ONE_LEVEL"                , [ Alt_L ] };
     key <RWIN> { type[group1] = "TWO_LEVEL"                , [ Menu, Super_R ] };
     key <MENU> { type[group1] = "TWO_LEVEL"                , [ Super_L, Menu ] };
-
-    modifier_map Mod1 { <LWIN>, <TLDE> };
-    modifier_map Mod5 { <LALT>, <RALT> };
 };
 
 // -- end programmer_beop --
